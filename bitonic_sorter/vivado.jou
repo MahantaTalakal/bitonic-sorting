@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Oct 12 17:25:08 2024
+# Process ID: 17520
+# Current directory: D:/CAD PROJECT/bitonic_sorter8BIT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24720 D:\CAD PROJECT\bitonic_sorter8BIT\bitonic_sorter8BIT.xpr
+# Log file: D:/CAD PROJECT/bitonic_sorter8BIT/vivado.log
+# Journal file: D:/CAD PROJECT/bitonic_sorter8BIT\vivado.jou
+# Running On: DESKTOP-MII2473, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/CAD PROJECT/bitonic_sorter8BIT/bitonic_sorter8BIT.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+add_files -norecurse D:/CHACKS/verilog_codes/CAS_8bit/CAS_8bit.srcs/sources_1/new/CAS_8.sv
+launch_simulation
+source bitonic_8Bit.tcl
+close_sim
